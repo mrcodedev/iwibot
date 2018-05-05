@@ -2,7 +2,7 @@
 
 [![N|Solid](https://github.com/mrcodedev/iwibot/blob/master/img/iwilogo.png?raw=true)](https://www.iwibot.com)
 
-Desarrollo de la página web del proyecto IWI Bot, desarrollado por alumnos del curso de cración de chatbots de la EOI.
+Desarrollo de la página web del proyecto **IWI Bot**. El desarrollo de **IWI Bot** se ha realizado por alumnos del curso de creación de chatbots de la EOI: Wahkuna Carbajo García-Verdugo, Rubén Fernández, Laura Gonzalez, Laura Higueras, Schirin Hoppe, Priscilla Montalvan, Daniel Reizabal Calvo-Fernández y Sergio Romero Propios.
 
 # La Inteligencia Artificial que se une a la igualdad de género
 Solución de concienciación social para la igualdad de género mediante una experiencia innovadora que permite ponerte en la piel de otra persona. Nos encantaría que te animaras a sentir lo que una persona vive cuando se encuentra en una situación de desigualdad de género.
@@ -22,7 +22,7 @@ Las siguientes tecnologías han sido usadas para realizar el proyecto
 * [Adobe Photoshop](https://www.adobe.com/es/products/photoshop/free-trial-download.html) - Programa para la edición de imágenes.
 
 ### Agradecimientos
-Me gustaría agradecerles a mis compañeros de proyecto IWI todo el trabajo y ayuda, ya que sin ellos esta web no hubiera nacido. También a todos los compañeros de OSWeekends que me han echado una mano cuando la necesitaba :).
+Me gustaría agradecerles a **mis compañeros** de proyecto IWI todo el trabajo y ayuda, ya que sin ellos esta web no hubiera nacido. También a todos los compañeros de **OSWeekends** que me han echado una mano cuando la necesitaba :).
 
 License
 ----
