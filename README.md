@@ -24,10 +24,13 @@ Las siguientes tecnologías han sido usadas para realizar el proyecto
 ### Agradecimientos
 Me gustaría agradecerles a **mis compañeros** de proyecto IWI todo el trabajo y ayuda, ya que sin ellos esta web no hubiera nacido. También a todos los compañeros de **OSWeekends** que me han echado una mano cuando la necesitaba :).
 
+### Restricciones
+Si vas a copiar esta web, por favor, queda totalmente prohíbido reutilizar las fotografías del equipo, el logotipo o el uso de nuestros nombres. Por el resto, eres libre de utilizarlo a tu gusto.
+
 License
 ----
-
 MIT
 
+----
 
 **:fire: :fire: Open Source Hell Yeah - OSWeekends (http://osweekends.com/) :fire: :fire:**
