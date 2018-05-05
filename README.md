@@ -30,4 +30,4 @@ License
 MIT
 
 
-**Open Source Hell Yeah - OSWeekends (http://osweekends.com/)
+**:fire: :fire: Open Source Hell Yeah - OSWeekends (http://osweekends.com/) :fire: :fire:**
