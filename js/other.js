@@ -542,34 +542,6 @@ function submitForm()
         //or by click on trigger
         $('.trigger-modal').modal();
 
-    $.cookieBar({
-        message: 'Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. <a class="modal-trigger" href="#modalcookies">Política de Cookies</a><br>',
-        acceptButton: true,
-        acceptText: 'Aceptar',
-        acceptFunction: null,
-        declineButton: false,
-        declineText: 'Disable Cookies',
-        declineFunction: null,
-        policyButton: false,
-        policyText: 'Privacy Policy',
-        policyURL: '/privacy-policy/',
-        autoEnable: true,
-        acceptOnContinue: false,
-        acceptOnScroll: false,
-        acceptAnyClick: false,
-        expireDays: 365,
-        renewOnVisit: false,
-        forceShow: false,
-        effect: 'slide',
-        element: 'body',
-        append: true,
-        fixed: true,
-        bottom: true,
-        zindex: '',
-        domain: 'www.iwibot.com',
-        referrer: 'www.iwibot.com'
-    });
-
 	$.cookieBar = function(options,val){
 		if(options=='cookies'){
 			var doReturn = 'cookies';
@@ -750,5 +722,33 @@ function submitForm()
 				$(document).bind('click',anyClick);
 			}
 		}
-	};
+    };
+    
+    $.cookieBar({
+        message: 'Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. <a class="modal-trigger" href="#modalcookies">Política de Cookies</a><br>',
+        acceptButton: true,
+        acceptText: 'Aceptar',
+        acceptFunction: null,
+        declineButton: false,
+        declineText: 'Disable Cookies',
+        declineFunction: null,
+        policyButton: false,
+        policyText: 'Privacy Policy',
+        policyURL: '/privacy-policy/',
+        autoEnable: true,
+        acceptOnContinue: false,
+        acceptOnScroll: false,
+        acceptAnyClick: false,
+        expireDays: 365,
+        renewOnVisit: false,
+        forceShow: false,
+        effect: 'slide',
+        element: 'body',
+        append: true,
+        fixed: true,
+        bottom: true,
+        zindex: '',
+        domain: 'www.iwibot.com',
+        referrer: 'www.iwibot.com'
+    });
 })(jQuery);
