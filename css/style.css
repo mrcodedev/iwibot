@@ -8,6 +8,30 @@
           EMAIL: mrcodedev@gmail.com
 */ 
 
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/MaterialIcons.woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
 /* ANIMATECSS */
 
 .animated {
@@ -142,9 +166,6 @@
   .slideInDown {
     animation-name: slideInDown;
   }
-
-/* IMPORTAMOS FUENTES */
-@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 body {
     overflow-wrap: break-word;
