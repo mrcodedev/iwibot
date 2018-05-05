@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.min.css">
-
     <meta charset="UTF-8">
     <meta content="Solución de concienciación social para la igualdad de género mediante una experiencia innovadora que permite ponerte en la piel de otra persona. Nos encantaría que te animaras a sentir lo que una persona vive cuando se encuentra en una situación de desigualdad de género." name="description">
+    <meta name=”robots” content=”index, follow”>
     <meta content="MrCodeDev" name="author">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -617,9 +617,19 @@
           </div>
           <!-- FIN COOKIES-->
 
-     <script src="js/jquery.min.js"></script>
-     <!-- Compiled and minified JavaScript -->
-     <script src="js/materialize.min.js"></script>
-     <script src="js/other.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116968768-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-116968768-1');
+        </script>
+
+        <script src="js/jquery.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="js/materialize.min.js"></script>
+        <script src="js/other.min.js"></script>
 </body>
 </html>
