@@ -1,3 +1,12 @@
+![travis](https://img.shields.io/travis/{{USER}}/{{REPO}}.svg)
+![issues abiertos](https://img.shields.io/github/issues/{{USER}}/{{REPO}}.svg)
+![issues promedio](https://img.shields.io/issuestats/i/github/{{USER}}/{{REPO}}.svg)
+![PR Abiertos](https://img.shields.io/github/issues-pr/{{USER}}/{{REPO}}.svg)
+![PR Promedio](https://img.shields.io/issuestats/p/github/{{USER}}/{{REPO}}.svg)
+![último commit](https://img.shields.io/github/last-commit/{{USER}}/{{REPO}}/{{RAMA}}.svg)
+![TOP Lang](https://img.shields.io/github/languages/top/{{USER}}/{{REPO}}.svg)
+![total lang](https://img.shields.io/github/languages/count/{{USER}}/{{REPO}}.svg)
+
 # IWI Bot
 
 [![N|Solid](https://github.com/mrcodedev/iwibot/blob/master/img/iwilogo.png?raw=true)](https://www.iwibot.com)
