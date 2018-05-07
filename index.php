@@ -426,6 +426,14 @@
                                 </div>
                             </div>
                             <div class="row">
+                                <div class="col s12 center-align">
+                                    <label>      
+                                        <label for="privacidad" id="statusprivacidad"></label><br>
+                                        <input type="checkbox" id="privacidad" />
+                                        <span>He leido y acepto la <a class="modal-trigger" href="#modalprivacidad">Política de privacidad</a></span>
+                                    </label>
+                                </div>
+                                &nbsp;
                                 <div class="col s12 center-align" id="status">
 
                                 </div>
@@ -464,7 +472,8 @@
                     <h2 class="black-text h2info">Info</h2>
                     <ul>
                     <li><h3 class="ocultaheader">Términos de uso</h3><a class="black-text modal-trigger" href="#modalterminosuso">Términos de uso</a></li>
-                    <li><h3 class="ocultaheader">Política de cookies</h3><a class="black-text modal-trigger" href="#modalcookies">Cookies</a></li>
+                    <li><h3 class="ocultaheader">Política de cookies</h3><a class="black-text modal-trigger" href="#modalcookies">Política de Cookies</a></li>
+                    <li><h3 class="ocultaheader">Política de privacidad</h3><a class="black-text modal-trigger" href="#modalprivacidad">Política de privacidad</a></li>
                     </ul>
                </div>
           </div>
@@ -476,7 +485,7 @@
      </div>
      </footer>     
      <!-- FIN Footer -->
-     
+
 
      <!-- MODALES -->
           <!-- MODAL TERMINOS DE USO-->
@@ -617,14 +626,80 @@
           </div>
           <!-- FIN COOKIES-->
 
+    <!-- MODALES -->
+          <!-- MODAL COOKIES-->
+          <div id="modalprivacidad" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                  <h5 class="colorwebverde">4. POLÍTICA DE PRIVACIDAD. PROTECCIÓN DE DATOS:</h5>
+                  <h6><strong>4.1. Finalidad de los datos recabados y CONSENTIMIENTO al tratamiento.</strong></h6>
+                  <p>Conforme a lo previsto en el <strong>artículo 5 de la LOPD</strong>, se informa al USUARIO que, mediante los formularios de registro de la web, se recaban datos, que se almacenan en un fichero, con la exclusiva finalidad de envío de comunicaciones electrónicas, tales como: boletines (newsletters), nuevas entradas (posts), así como otras comunicaciones que <strong><strong>iwibot.com</strong></strong> entiende interesantes para sus USUARIOS. Los campos marcados como de cumplimentación obligatoria, son imprescindibles para realizar la finalidad expresada.</p>
+                  <p>Únicamente el titular tendrá acceso a sus datos, y bajo ningún concepto, estos datos serán cedidos, compartidos, transferidos, ni vendidos a ningún tercero.</p>
+                  <p>La aceptación de la política de privacidad,  mediante el procedimiento establecido de doble opt-in,  se entenderá a todos los efectos como la prestación de CONSENTIMIENTO EXPRESO E INEQUÍVOCO – del <strong>artículo 6 de la LOPD</strong> – del USUARIO al tratamiento de los datos de carácter personal en los términos que se exponen en el presente documento, así como a la transferencia internacional de datos que se produce, exclusivamente debido a la ubicación física de las instalaciones de los proveedores de servicios y encargados del tratamiento de datos que se dirán en el punto <strong>4.9.</strong></p><br>
+                  <h6><strong>4.2. Cumplimiento de la normativa de aplicación.</strong></h6>
+                  <p><strong><strong>iwibot.com</strong></strong> cumple con las directrices de la Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal, el Real Decreto 1720/2007 de 21 de diciembre por el que se aprueba el Reglamento de desarrollo de dicha Ley Orgánica y demás normativa vigente y de aplicación en cada momento, velando por garantizar un correcto uso y tratamiento de los datos personales del usuario.</p>
+                  <p>Asimismo, <strong><strong>iwibot.com</strong></strong> informa que da cumplimiento a la Ley 34/2002 de 11 de julio, de Servicios de la Sociedad de la Información y el Comercio Electrónico y le solicitará su consentimiento al USUARIO para el tratamiento de su correo electrónico con fines comerciales en cada momento.</p>
+                  <p>En cumplimiento de lo establecido en la LOPD, le informamos que los datos suministrados, así como aquellos datos derivados de su navegación, podrán ser almacenados en los ficheros de <strong><strong>iwibot.com</strong></strong> y tratados para la finalidad de atender su solicitud y el mantenimiento de la relación que se establezca en los formularios que suscriba.</p>
+                  <p>Adicionalmente, el USUARIO consiente el tratamiento de sus datos con la finalidad de informarles, por cualquier medio, incluido el correo electrónico, de productos y servicios de <strong><strong>iwibot.com</strong></strong>.</p>
+                  <p>En caso de no autorizar el tratamiento de sus datos con la finalidad señalada anteriormente, el USUARIO podrá ejercer su derecho de oposición al tratamiento de sus datos en los términos y condiciones previstos más adelante en el apartado “Ejercicio de Derechos ARCO”.</p><br>
+                  <h6><strong>4.3. Medidas de Seguridad.</strong></h6>
+                  <p><strong><strong>iwibot.com</strong></strong> le informa que tiene implantadas las medidas de seguridad de índole técnica y organizativas necesarias para garantizar la seguridad de sus datos de carácter personal y evitar su alteración, pérdida y tratamiento y/o acceso no autorizado, habida cuenta del estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que están expuestos, ya provengan de la acción humana o del medio físico o natural. Todo ello de conformidad con lo previsto en el Art. 9 de la LOPD y el Título VIII del RLOPD.</p>
+                  <p>Asimismo, <strong><strong>iwibot.com</strong></strong> ha establecido medidas adicionales en orden a reforzar la confidencialidad e integridad de la información en su organización. Manteniendo continuamente la supervisión, control y evaluación de los procesos para asegurar el respeto a la privacidad de los datos.</p><br>
+                  <h6><strong>4.4. Ejercicio de Derechos ARCO: Acceso, Rectificación, Cancelación y Oposición.</strong></h6>
+                  <p>Aquellas personas físicas que hayan facilitado sus datos a través de la web www.<strong><strong>iwibot.com</strong></strong>, podrán dirigirse al titular de la misma con el fin de poder ejercitar gratuitamente sus derechos de acceso, rectificación, cancelación y oposición respecto de los datos incorporados en sus ficheros.</p>
+                  <p>El interesado podrá ejercitar sus derechos mediante comunicación por email a través del correo electrónico: <em>helloiwibot@gmail.com</em></p><br>
+                  <h6><strong>4.5. Links.</strong></h6>
+                  <p>Como un servicio a nuestros visitantes, nuestro sitio web puede incluir hipervínculos a otros sitios que no son operados o controlados por <strong><strong>iwibot.com</strong></strong>. Por ello <strong><strong>iwibot.com</strong></strong> no garantiza, ni se hace responsable de la licitud, fiabilidad, utilidad, veracidad y actualidad de los contenidos de tales sitios web o de sus prácticas de privacidad. Por favor, antes de proporcionar su información personal a estos sitios web ajenos a <strong><strong>iwibot.com</strong></strong>, tenga en cuenta que sus prácticas de privacidad pueden diferir de las nuestras.</p><br>
+                  <h6><strong>4.6. Política de “Cookies”.</strong></h6>
+                  <p>Una cookie es un archivo de información que el servidor de este sitio web envía al dispositivo (ordenador, smartphone, tablet, etc.) de quien accede a la página para almacenar y recuperar información sobre la navegación que se efectúa desde dicho equipo.</p>
+                  <p><strong><strong>iwibot.com</strong></strong> utiliza diversos tipos de cookies (técnicas, analíticas y sociales) únicamente con la finalidad de mejorar la navegación del usuario en el sitio web, sin ningún tipo de objeto publicitario o similar, para el análisis y elaboración de estadísticas de la navegación que el USUARIO realiza en el sitio web, aí como para compartir los contenidos en redes sociales (Google+, Twitter, Linkedin, Disqus).</p>
+                  <p><strong><strong>iwibot.com</strong></strong> utiliza en este sitio web las cookies que se detallan a continuación:</p>
+                  <p><strong>Cookies técnicas:</strong> Son aquéllas que permiten al USUARIO la navegación a través de la página web y la utilización de las diferentes opciones o servicios que en ella existen como, por ejemplo, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido, recordar los elementos que integran un pedido, realizar el proceso de compra de un pedido, realizar la solicitud de inscripción o participación en un evento, utilizar elementos de seguridad durante la navegación, almacenar contenidos para la difusión de vídeos o sonido o compartir contenidos a través de redes sociales.</p>
+                  <p><strong>Cookies de Google Analytics:</strong> Son cookies de terceros (Google Inc.) de análisis que permiten el seguimiento y análisis del comportamiento de los USUARIOS de los sitios web a los que están vinculadas. La información recogida mediante este tipo de cookies se utiliza en la medición de la actividad de los sitios web, aplicación o plataforma y para la elaboración de perfiles de navegación de los USUARIOS de dichos sitios, aplicaciones y plataformas, con el fin de introducir mejoras en función del análisis de los datos de uso que hacen los USUARIOS del servicio.</p>
+                  <p>Google Analytics, almacena las cookies en servidores ubicados en Estados Unidos y se compromete a no compartirla con terceros, excepto en los casos en los que sea necesario para el funcionamiento del sistema o cuando la ley obligue a tal efecto. Según Google no guarda la dirección IP del USUARIO.</p>
+                  <p>Más información sobre Google Analytics en los siguientes enlaces:</p>
+                  <p><a href="http://www.google.com/analytics/" target="_blank">http://www.google.com/analytics/</a> y <a href="http://www.google.com/intl/es/policies/privacy/" target="_blank">http://www.google.com/intl/es/policies/privacy/</a>.</p>
+                  <p>Si deseas información sobre el uso que Google da a las cookies adjuntamos este otro enlace:</p>
+                  <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es&csw=1" target="_blank">https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es&csw=1</a>.
+                  <p><strong>Cookies sociales: Google+, Facebook, YouTube, Twitter, etc.:</strong> cookies  de terceros, es decir, redes sociales externas y de terceros, cuya temporalidad y finalidad  depende de cada red social.</p>
+                  <p>El usuario podrá -en cualquier momento- elegir qué cookies quiere que funcionen en este sitio web mediante:
+                  – La configuración del navegador; por ejemplo:</p>
+                  <p><strong>Chrome</strong>, desde: <a href="http://support.google.com/chrome/bin/answer.py?hl=es&answer=95647" target="_blank">http://support.google.com/chrome/bin/answer.py?hl=es&answer=95647</a><br>
+                  <strong>Explorer</strong>, desde: <a href="http://windows.microsoft.com/es-es/windows7/how-to-manage-cookies-in-internet-explorer-9" target="_blank">http://windows.microsoft.com/es-es/windows7/how-to-manage-cookies-in-internet-explorer-9</a><br>
+                  <strong>Firefox</strong>, desde: <a href="http://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we" target="_blank">http://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we</a><br>
+                  <strong>Safari</strong>, desde: <a href="http://support.apple.com/kb/ph5042" target="_blank">http://support.apple.com/kb/ph5042</a><br>
+                  <strong>Opera</strong>, desde: <a href="http://help.opera.com/Windows/11.50/es-ES/cookies.html" target="_blank">http://help.opera.com/Windows/11.50/es-ES/cookies.html</a></p>
+                  <p>– Existen herramientas de terceros, disponibles on line, que permiten a los usuarios detectar las cookies en cada sitio web que visita y gestionar su desactivación.</p>
+                  <p>Ni esta web, ni sus representantes legales se hacen responsables ni del contenido ni de la veracidad de las políticas de privacidad que puedan tener los terceros mencionados en esta política de cookies.</p>
+                  <p>Los navegadores web son las herramientas encargadas de almacenar las cookies y desde esos navegadores debes efectuar tu derecho a eliminación o desactivación de las mismas. Ni esta web ni sus representantes legales pueden garantizar la correcta o incorrecta manipulación de las cookies por parte de los mencionados navegadores.</p>
+                  <p><strong>En algunos casos es necesario instalar cookies para que el navegador no olvide tu decisión de no aceptación de las mismas.
+                  La aceptación de la presente política de privacidad implica que el usuario ha sido informado de una forma clara y completa sobre el uso de dispositivos de almacenamiento y recuperación de datos (cookies) así como que <strong>iwibot.com</strong> dispone del consentimiento del usuario para el uso de las mismas tal y como establece el artículo 22 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE).</strong></p>
+                  <p>Para cualquier duda o consulta acerca de esta política de cookies no dudes en comunicarte con nosotros a través de la dirección de correo electrónico <em>helloiwibot@gmail.com</em></p><br>
+                  <h6><strong>4.7. Menores de edad.</strong></h6>
+                  <p>La web de <strong>iwibot.com</strong> no se dirige a menores de edad. El titular de la web declina cualquier responsabilidad por el incumplimiento de este requisito.</p><br>
+                  <h6><strong>4.8. Modificación de la Política de Privacidad.</strong></h6>
+                  <p><strong>iwibot.com</strong> se reserva el derecho a modificar su Política de Privacidad, de acuerdo a su propio criterio, motivado por un cambio legislativo, jurisprudencial o doctrinal de la Agencia Española de Protección de Datos.</p>
+                  <p>Cualquier modificación de la Política de Privacidad será publicada al menos diez días antes de su efectiva aplicación. El uso de la Web después de dichos cambios, implicará la aceptación de los mismos.</p><br>
+                  <h6><strong>4.9. Responsable del fichero, y encargados del tratamiento.</strong></h6>
+                  <p>El responsable del fichero de datos son: Wahkuna Carbajo García-Verdugo, Rubén Fernández, Laura Gonzalez, Laura Higueras, Schirin Hoppe, Priscilla Montalvan, Daniel Reizabal Calvo-Fernández y Sergio Romero Propios.</p>
+                  <p>Como encargados de tratamiento ajenos a los citados responsable:</p>
+                  <p><strong>iwibot.com</strong> ha contratado los servicios de hosting a OVH. (Identificado con la marca comercial <strong>OVH HISPANO SL</strong>), con domicilio social en Madrid, C/Alcalá 21, 5ª planta, 28014 Madrid, España, inscrita en el Registro Mercantil de la provincia de Barcelona al Tomo 19.514, folio 77, sección 8, hoja M-342678. Con C.I.F.: B-83834747, que proporciona los servicios de hosting de la Web. Se puede consultar la política de privacidad y demás aspectos legales de dicha compañía en el siguiente enlace: <a href="https://www.ovh.es/soporte/aviso-legal/" target="_blank">https://www.ovh.es/soporte/aviso-legal/</a></p>
+                  <p>Los servicios de suscripción por correo electrónico y envío de newsletters a la compañía norteamericana The Rocket Science Group, LLC (Identificada por la marca comercial <strong>“MailChimp”</strong>). La suscripción al blog conlleva que los datos introducidos son transferidos a los servidores de la citada compañía, suponiendo una transferencia internacional de datos que el USUARIO consiente de manera expresa con la aceptación de la presente política de privacidad.</p>
+                  <p>Se ha exigido a dichos encargados de tratamiento el cumplimiento de las disposiciones normativas de aplicación en materia de protección de datos, en el momento de su contratación.</p>  
+              </div>
+              <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect btn-flat botoncolorweb"><span class="white-text">Aceptar</span></a>
+              </div>
+          </div>
+          <!-- FIN COOKIES-->
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116968768-1"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'UA-116968768-1');
+            gtag('config', 'UA-116968768-1');
         </script>
 
         <script src="js/jquery.min.js"></script>

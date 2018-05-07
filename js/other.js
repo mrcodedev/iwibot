@@ -367,6 +367,14 @@ function validateMessage(message) {
      }
 }
 
+function validatePrivacidad(privacidad) {
+    if(privacidad === true) {
+        return true;
+    }else{
+        return false;
+    }
+}
+
  document.getElementById('name').addEventListener('input', function()
  {
      var $statusname = $("#statusname");
@@ -442,7 +450,7 @@ function validateMessage(message) {
 
 function submitForm()
 {
-     if(validateName(_("name").value) === true && validateEmail(_("email").value) === true && validatePhone(_("tel").value) === true && validateCompany(_("company").value) === true && validateMessage(_("message").value) === true) {
+     if(validateName(_("name").value) === true && validateEmail(_("email").value) === true && validatePhone(_("tel").value) === true && validateCompany(_("company").value) === true && validateMessage(_("message").value) === true && validatePrivacidad(_("privacidad").checked) === true) {
           _("submit").disabled = true;
           _("status").innerHTML = 'Espera un momento...';
           var formdata = new FormData();
@@ -451,8 +459,9 @@ function submitForm()
           formdata.append("tel", _("tel").value);
           formdata.append("company", _("company").value);
           formdata.append("message", _("message").value);
+          formdata.append("privacidad", _("privacidad").checked);
           var ajax = new XMLHttpRequest();
-          ajax.open("POST", "/bots/iwi/assets/send.php");
+          ajax.open("POST", "../assets/send.php");
           ajax.onreadystatechange = function() 
           {
                console.log("LEYENDO STATUS");
@@ -517,6 +526,21 @@ function submitForm()
                $statusmessage.css("color", "red");
                console.log("Error en Mensaje");
           }
+
+          if(validatePrivacidad(_("privacidad").checked) == false)
+          {
+                var $statusprivacidad = $("#statusprivacidad");
+                $statusprivacidad.text("Debes de aceptar la política de privacidad :(");
+                $statusprivacidad.css("color", "red");
+                console.log("Error en Política Privacidad");
+          }
+          else
+          {
+                var $statusprivacidad = $("#statusprivacidad");
+                $statusprivacidad.text("Gracias por aceptar la política de privacidad :)");
+                $statusprivacidad.css("color", "green");
+          }
+
      }
 }
 
