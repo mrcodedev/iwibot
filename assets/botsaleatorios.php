@@ -49,16 +49,16 @@ $proyectos = array(
           'HTMLEnd' => '<!-- FIN PROYECTO ACTORES -->'
      ),
 
-     //PROYECTO RIDER
+     //PROYECTO DEPORTES
      array(
           'Imagen' => 'imagenrider',
-          'Titulo' => 'Rider Bot', 
-          'Descripcion' => 'Las dificultades de la mujer en el motociclismo.', 
+          'Titulo' => 'Deportes', 
+          'Descripcion' => 'Las dificultades de las deportistas.', 
           'ColorBoton' => 'pink', 
           'ColorText' => 'white-text',
           'Enlace' => 'http://m.me/290556061352522?ref=26fce26d-c4b9-4822-aea6-60bc9fe60d83',
-          'HTMLStart' => '<!-- PROYECTO RIDER -->',
-          'HTMLEnd' => '<!-- FIN PROYECTO RIDER -->'
+          'HTMLStart' => '<!-- PROYECTO DEPORTES -->',
+          'HTMLEnd' => '<!-- FIN PROYECTO DEPORTES -->'
      ),
 
      //PROYECTO COMEDIA
