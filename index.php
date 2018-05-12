@@ -42,7 +42,6 @@
                     <li><h3 class="ocultaheader">Inicio</h3><a href="#seccioninicio"><i class="fas fa-home fa-1x"></i>&nbsp;Inicio</a></li>
                     <li><h3 class="ocultaheader">Iwi</h3><a href="#seccioniwi"><i class="fas fa-certificate fa-1x"></i>&nbsp;Iwi</a></li>
                     <li><h3 class="ocultaheader">Misión</h3><a href="#seccionmision"><i class="fas fa-child fa-1x"></i>&nbsp;Misión</a></li>
-                    <li><h3 class="ocultaheader">Organizadores</h3><a href="#seccionorganizadores"><i class="fas fa-cubes fa-1x"></i>&nbsp;Organizadores</a></li>
                     <li><h3 class="ocultaheader">Equipo</h3><a href="#seccionequipo"><i class="fas fa-users fa-1x"></i>&nbsp;Equipo</a></li>
                     <li><h3 class="ocultaheader">Apoyos</h3><a href="#seccionapoyos"><i class="fas fa-people-carry fa-1x"></i>&nbsp;Apoyos</a></li>
                     <li><h3 class="ocultaheader">Contacto</h3><a href="#seccioncontacto"><i class="fas fa-comment-alt fa-1x"></i>&nbsp;Contacto</a></li>
@@ -53,7 +52,6 @@
           <li><a href="#seccioninicio" class="sidenav-close"><i class="fas fa-home fa-1x"></i>Inicio</a></li>
           <li><a href="#seccioniwi" class="sidenav-close"><i class="fas fa-certificate fa-1x"></i>Iwi</a></li>
           <li><a href="#seccionmision" class="sidenav-close"><i class="fas fa-child fa-1x"></i>Misión</a></li>
-          <li><a href="#seccionorganizadores" class="sidenav-close"><i class="fas fa-cubes fa-1x"></i>Organizadores</a></li>
           <li><a href="#seccionequipo" class="sidenav-close"><i class="fas fa-users fa-1x"></i>Equipo</a></li>
           <li><a href="#seccionapoyos" class="sidenav-close"><i class="fas fa-people-carry fa-1x"></i>Apoyos</a></li>
           <li><a href="#seccioncontacto" class="sidenav-close"><i class="fas fa-comment-alt fa-1x"></i>Contacto</a></li>
@@ -170,8 +168,7 @@
      <section id="seccionorganizadores" class="fixnavbarbookmark"></section>
      <div class="iwiorganizadores">
           <div class="container">
-               <h2 class="center-align organizadorestitulo titulosresponsive wow fadeInUp delayanimation"><strong>ORGANIZADORES</strong></h2>
-               <p class="center-align organizadorestexto wow fadeInUp delayanimation">Gracias a ellos, nuestro bot Iwi ha cobrado vida.</p>
+               <p class="center-align organizadorestexto wow fadeInUp delayanimation">Gracias a su formación, nuestro bot Iwi ha cobrado vida.</p>
                <div class="row wow slideInDown delayanimation">
                     <!-- EOI -->
                     <div class="col s12 m12 l3 center-align">
