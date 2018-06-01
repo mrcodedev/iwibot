@@ -12,6 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Iwi - La IA que se une a la igualdad de género</title>
+    <meta property="og:title" content="Iwi - La IA que se une a la igualdad de género" />
+    <meta property="og:url" content="http://www.iwibot.com/" />
+    <meta property="og:image" content="http://www.iwibot.com/img/logo-preview.jpg" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
     <link rel="apple-touch-icon" sizes="57x57" href="ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="ico/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="ico/apple-icon-72x72.png">
