@@ -122,7 +122,7 @@
      <div class="iwimision wow fadeInLeft delayanimation">
           <div class="container misioncontainer">
                <h2 class="center-align misiontitulo titulosresponsive"><strong>NUESTRA MISIÓN</strong></h2>
-               <p class="misiontexto">Nuestro objetivo principal es sensibilizar a la sociedad española sobre diferentes casos comunes en los que existe la desigualdad de género. Lo haremos mediante la introducción de ocho chatbots creados por los participantes del curso “Técnico en Creación de Bots” de la Escuela de Organización Industrial.</p>
+               <p class="misiontexto">Nuestro objetivo principal es sensibilizar a la sociedad española sobre diferentes casos comunes en los que existe la desigualdad de género. Lo haremos mediante la introducción de ocho chatbots creados por los participantes del curso “Técnico en Creación de Bots” de la Escuela de Organización Industrial, gracias a la concesión de la plataforma de <a href="http://www.commons.fm/" target="_blank">Commons</a></p>
           </div>
      </div>
      <!-- Fin Misión -->
