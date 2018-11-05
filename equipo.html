@@ -42,14 +42,9 @@
           <h2 class="ocultaheader">Navegación</h2>
           <div class="nav-wrapper black">
                <a href="/" class="brand-logo"><img src="img/iwilogo.png" alt="Iwi Bot Logo" class="logo-nav"></a>
-               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+               <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><h3 class="ocultaheader">Inicio</h3><a href="#seccioninicio"><i class="fas fa-home fa-1x"></i>&nbsp;Inicio</a></li>
-                    <li><h3 class="ocultaheader">Iwi</h3><a href="#seccioniwi"><i class="fas fa-certificate fa-1x"></i>&nbsp;Iwi</a></li>
-                    <li><h3 class="ocultaheader">Misión</h3><a href="#seccionmision"><i class="fas fa-child fa-1x"></i>&nbsp;Misión</a></li>
-                    <li><h3 class="ocultaheader">Equipo</h3><a href="/equipo.html"><i class="fas fa-users fa-1x"></i>&nbsp;Equipo</a></li>
-                    <li><h3 class="ocultaheader">Apoyos</h3><a href="#seccionapoyos"><i class="fas fa-people-carry fa-1x"></i>&nbsp;Apoyos</a></li>
-                    <li><h3 class="ocultaheader">Contacto</h3><a href="#seccioncontacto"><i class="fas fa-comment-alt fa-1x"></i>&nbsp;Contacto</a></li>
+                    <li><h3 class="ocultaheader">Inicio</h3><a href="/"><i class="fas fa-home fa-1x"></i>&nbsp;Inicio</a></li>
                </ul>
           </div>
      </nav>
@@ -65,195 +60,154 @@
      <div id="fixnavbar">
        &nbsp;
      </div>
-     <!-- Mensaje Bienvenida -->
-     <section id="seccioninicio" class="fixnavbarbookmark"></section>
-     <div class="welcomeiwi">
-          <div class="welcomecontent center-align">
-               <div class="textowelcome">
-               <strong class="iwititulo textowelcomesombra"><img src="img/logotexto.png" alt="Logo texto IWI" class="welcomeimg animated infinite pulse"></strong>
-               <h2 class="h2tituloiwi textowelcomesombra welcomeh2 wow fadeInUp delayanimation">La Inteligencia Artificial que se une a la igualdad de género</h2>
-               <p class="flow-text textowelcomesombra welcomedescription wow fadeInUp delayanimation">Solución de concienciación social para la igualdad de género mediante una experiencia innovadora que permite ponerte en la piel de otra persona. Nos encantaría que te animaras a sentir lo que una persona vive cuando se encuentra en una situación de desigualdad de género.</p><br>
-               <a class="waves-effect waves-light btn-large z-depth-5 wow fadeInUp delayanimation" href="http://m.me/290556061352522?ref=1640ddf9-3422-4bf6-91bc-590953fc87ea" target="_blank"><i class="material-icons left">assignment_ind</i>PROBAR IWI</a>
-               </div>
-          </div>
-     </div>
-     <!-- FinMensaje Bienvenida-->
 
-     <!-- Mensaje Bienvenida -->
-     <section id="seccioniwi" class="fixnavbarbookmark"></section>
-     <div class="iwiprojects">
+     <!-- Equipo-->
+     <section id="seccionequipo" class="fixnavbarbookmark"></section>
+     <div class="iwiequipo">
           <div class="container">
-               <div class="carousel carousel-slider center">
-                <?php
-                    include('assets/botsaleatorios.php');
-
-                    shuffle($proyectos);
-
-                    foreach($proyectos as $proyecto){
-                ?>
-                <?php echo "\n\t\t\t\t\t".$proyecto['HTMLStart']."\n"; ?>
-
-                    <div class="carousel-item white-text">
-                        <div class="<?php echo $proyecto['Imagen']; ?>">
-                        </div>
-                        <div class="textobotindividual">
-                              <h3><strong><?php echo $proyecto['Titulo']; ?></strong></h3>
-                              <p class="white-text textobotsindividualm"><span class="textobotsindividual"><?php echo $proyecto['Descripcion']; ?></span></p>
-                              <br>
-                              <a class="btn waves-effect darken-text-2 <?php echo $proyecto['ColorBoton'].' '.$proyecto['ColorText']; ?>" href="<?php echo $proyecto['Enlace']; ?>" target="_blank">EMPEZAR</a>
-                              <div class="carousel-fixed-item center">
+               &nbsp;<br><br>
+               <h2 class="center-align equipotitulo titulosresponsive wow fadeInUp delayanimation"><strong>EQUIPO</strong></h2>
+               <p class="equipotexto center-align wow fadeInUp delayanimation">Detrás de cada bot, hay una persona desarrollándolo. Este es el equipo que trabaja en Iwi.</p>
+          </div>
+          <div class="container">
+               <div class="row">
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                         <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/waku.jpg" alt="Wahku Carbajo">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>Wahku<br>Carbajo</strong></span>
+                                   <p class="texto-equipo-estudios">Chatbot Developer, Artista y Creativa</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://www.linkedin.com/in/wahkuna-carbajo-b3ba00155/" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro"></i></a>
+                                        <a href="https://www.instagram.com/waku_naerona/" target="_blank"><i class="fab fa-instagram fa-1x icono-color-negro center-align"></i></a>
+                                   </div>
                               </div>
                          </div>
                     </div>
-
-                    <?php echo $proyecto['HTMLEnd']; ?>
-
-                <?php
-                }
-                ?>
-                    
-             </div>
-          </div>
-     </div>
-     <!-- FinMensaje Bienvenida-->
-
-     <!-- Misión-->
-     <section id="seccionmision" class="fixnavbarbookmark"></section>
-     <div class="iwimision wow fadeInLeft delayanimation">
-          <div class="container misioncontainer">
-               <h2 class="center-align misiontitulo titulosresponsive"><strong>NUESTRA MISIÓN</strong></h2>
-               <p class="misiontexto">Nuestro objetivo principal es sensibilizar a la sociedad española sobre diferentes casos comunes en los que existe la desigualdad de género. Lo haremos mediante la introducción de ocho chatbots creados por los participantes del curso “Técnico en Creación de Bots” de la Escuela de Organización Industrial, gracias a la concesión de la plataforma de <a href="http://www.commons.fm/" target="_blank">Commons</a></p>
-          </div>
-     </div>
-     <!-- Fin Misión -->
-
-     <!-- 3 Columnas objetivos-->
-     <div class="iwitarget fixnavbarbookmark">
-          <div class="container">
-               <div class="section">
-                <h2 class="h2iwitarget titulosresponsive wow fadeInUp delayanimation"><strong>NUESTROS MOTIVOS</strong></h2>
-                 <!-- ¿POR QUÉ? -->
-                 <div class="row">
-                   <div class="col s12 m12 l4 wow zoomIn delayanimation">
-                     <div class="icon-block">
-                       <span class="center"><i class="material-icons large">sentiment_very_dissatisfied</i></span>
-                       <h3 class="center target-texts motivostitulo"><strong>¿POR QUÉ?</strong></h3>
-                       <p>Sabemos que la desigualdad es un problema que afecta gravemente nuestra sociedad y queremos que haya una mejor unión y empatía entre géneros. La educación y la concienciación son las claves para resolver las carencias sociales en cuestiones de igualdad.</p>
-                     </div>
-                   </div>
-                   <!-- FIN ¿POR QUÉ? -->
-           
-                   <!-- CONCIENCIAR -->
-                   <div class="col s12 m12 l4 wow zoomIn delayanimation">
-                     <div class="icon-block">
-                       <span class="center"><i class="material-icons large">wc</i></span>
-                       <h3 class="center target-texts motivostitulo"><strong>CONCIENCIAR</strong></h3>
-                       <p>Hemos creado un entorno de confianza en el que los participantes se sientan cómodos con este tema y fomentar una apertura al diálogo.</p>
-                     </div>
-                   </div>
-                    <!-- FIN CONCIENCIAR --> 
-
-                   <!-- INNOVACIÓN -->
-                   <div class="col s12 m12 l4 wow zoomIn delayanimation">
-                     <div class="icon-block">
-                       <span class="center"><i class="material-icons large">touch_app</i></span>
-                       <h3 class="center target-texts motivostitulo"><strong>INNOVACIÓN</strong></h3>
-                       <p>El uso de Chatbots crea una experiencia de usuario interactiva e innovadora.</p>
-                     </div>
-                   </div>
-                 </div>
-               <!-- FIN INNOVACIÓN -->
-           
-               </div>
-          </div>
-     </div>
-     <!-- FIN 3 Columnas objetivos-->
-
-    <!-- Apoyos -->
-    <section id="seccionapoyos" class="fixnavbarbookmark"></section>
-     <div class="iwiapoyos wow fadeInLeft delayanimation">
-          <div class="container apoyoscontainer">
-               <h2 class="center-align apoyostitulo titulosresponsive"><strong>APOYOS</strong></h2>
-               <div class="container">
-                    <div class="row wow slideInDown delayanimation center-align">
-                        <div class="col s12 m12 l3 center-align">
-                            &nbsp;
-                        </div>
-                        <div class="col s12 m12 l3 center-align">
-                            <a href="http://www.commons.fm" target="_blank"><img src="img/colaboradores/commons-logo.png" class="imgorganizadores firstorg img-eoi-logo" alt="EOI"></a>
-                        </div>
-                        <div class="col s12 m12 l3 center-align">
-                            <a href="http://www.planetachatbot.com/" target="_blank"><img src="img/colaboradores/planetachatbot-logo.png" class="imgorganizadores firstorg img-eoi-logo" alt="EOI"></a>
-                        </div>
-                        <div class="col s12 m12 l3 center-align">
-                            &nbsp;
-                        </div>
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                       <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/ruben.jpg" alt="Rubén Fernández">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>Rubén<br>Fernández</strong></span>
+                                   <p class="texto-equipo-estudios">Chatbot Developer, Creativo y Fotógrafo</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://www.linkedin.com/in/ruben-fernandez-100a4b34" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro"></i></a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                       <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/laura.jpg" alt="Laura González">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>Laura<br>González</strong></span>
+                                   <p class="texto-equipo-estudios">Chatbot Developer, Periodista y Publicista</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://www.linkedin.com/in/laura-gonzalez-suarez/" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro"></i></a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                       <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/laurah.jpg" alt="Laura Higueras">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>Laura<br>Higueras</strong></span>
+                                   <p class="texto-equipo-estudios">Chatbot Developer y Educadora Infantil</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://www.linkedin.com/in/laura-higueras-gonzalez-071393161/" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro"></i></a>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
                </div>
-          </div>
-     </div>
-    <!-- FIN Apoyos -->
-
-     <!-- Organizadores-->
-     <section id="seccionorganizadores" class="fixnavbarbookmark"></section>
-     <div class="iwiorganizadores">
-          <div class="container">
-                <h2 class="center-align apoyostitulo titulosresponsive"><strong>FORMACIÓN</strong></h2>
-               <p class="center-align organizadorestexto wow fadeInUp delayanimation">Gracias a su formación, nuestro bot Iwi ha cobrado vida.</p>
-               <div class="row wow slideInDown delayanimation">
-                    <!-- EOI -->
-                    <div class="col s12 m12 l3 center-align">
-                         <img src="img/organizadores/eoi.jpg" class="imgorganizadores firstorg img-eoi-logo" alt="EOI">
+               <div class="row">
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                       <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/schirin.jpg" alt="Schirin Hoppe">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>Schirin<br>Hoppe</strong></span>
+                                   <p class="texto-equipo-estudios">Chatbot Developer y organizadora de eventos</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://www.linkedin.com/in/schirin-hoppe-49929915a/" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro center-align"></i></a>
+                                        <a href="https://www.instagram.com/schirin_on_tour/" target="_blank"><i class="fab fa-instagram fa-1x icono-color-negro center-align"></i></a>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                    <!-- FIN EOI -->
-
-                    <!-- UEEMPLEOJUVENIL -->
-                    <div class="col s12 m12 l3 center-align">
-                         <img src="img/organizadores/ueempleojuvenil.jpg" class="imgorganizadores img-ue-logo" alt="Empleo Juvenil UE">
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                       <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/priscila.jpg" alt="Priscilla Montalván">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>Priscilla<br>Montalván</strong></span>
+                                   <p class="texto-equipo-estudios">Chatbot Developer y violinista clásica</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://www.linkedin.com/in/priscillamontalvanmena/" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro"></i></a>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                    <!-- FIN UEEMPLEOJUVENIL -->
-
-                    <!-- GARANTIAJUVENIL -->
-                    <div class="col s12 m12 l3 center-align">
-                         <img src="img/organizadores/garantiajuvenil.png" class="imgorganizadores img-garantia-logo" alt="Garantia Juvenil">
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                       <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/dani.jpg" alt="Daniel Reizábal">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>Daniel<br>Reizábal</strong></span>
+                                   <p class="texto-equipo-estudios">Chatbot Developer, Comunicador y Locutor</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://es.linkedin.com/in/daniel-reizabal-calvo-fdez" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro"></i></a>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                    <!-- FIN GARANTIAJUVENIL -->
-
-                    <!-- ONCE -->
-                    <div class="col s12 m12 l3 center-align">
-                         <img src="img/organizadores/once.jpg" class="imgorganizadores img-once-logo" alt="Fundación ONCE">
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                         <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/sergio.jpg" alt="Sergio Romero">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>Sergio<br>Romero</strong></span>
+                                   <p class="texto-equipo-estudios">Chatbot Developer y amante del motor</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://www.linkedin.com/in/sergio-romero-propios-070393161/" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro"></i></a>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                    <!-- FIN ONCE -->
                </div>
-          </div>
-     </div>
-     <!-- Fin Organizadores -->
-
-     <!-- Redes Sociales-->
-     <div class="iwiredessociales fixnavbarbookmark">
-          <div class="container">
-               <h2 class="center-align socialestitulo wow fadeInUp delayanimation"><strong>PRENSA Y REDES SOCIALES</strong></h2>
-               <div class="socialcontainer center-align">
-                    <div class="socialelements">
-                         <!-- FACEBOOK -->
-                         <a class="waves-effect waves-light btn-floating btn-large social facebook botorrhhset blue darken-4 wow zoomIn delayanimation" href="https://www.facebook.com/iwibotcom/" target="_blank">
-                         <i class="fab fa-facebook"></i></a>
-                         <!-- FIN FACEBOOK -->
-
-                         <!-- TWITTER -->
-                         <a class="waves-effect waves-light btn-floating btn-large social twitter botorrhhset blue lighten-1 wow zoomIn delayanimation" href="http://www.twitter.com/iwibot/" target="_blank">
-                         <i class="fab fa-twitter"></i></a>
-                         <!-- FIN TWITTER -->
-
-                         <!-- INSTAGRAM -->
-                         <a class="waves-effect waves-light btn-floating btn-large social instagram botorrhhset pink accent-2 wow zoomIn delayanimation" href="https://www.instagram.com/iwibots/" target="_blank">
-                         <i class="fab fa-instagram"></i></a>
-                         <!-- FIN INSTAGRAM -->
+               <div class="row">
+                    <div class="col s12 m6 l3 wow bounceIn delayanimation">
+                        <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                   <img class="activator" src="img/equipo/joseluis.jpg" alt="Sergio Romero">
+                              </div>
+                              <div class="card-content center-align">
+                                   <span class="card-title activator grey-text text-darken-4"><strong>José Luis<br>García</strong></span>
+                                   <p class="texto-equipo-estudios">Full Stack Developer</p>
+                                   <div class="card-action rrh-equipo">
+                                        <a href="https://www.linkedin.com/in/jose-luis-garcia-abad/" target="_blank"><i class="fab fa-linkedin-in fa-1x icono-color-negro center-align"></i></a>
+                                        <a href="https://www.instagram.com/jose_photo_bn/" target="_blank"><i class="fab fa-instagram fa-1x icono-color-negro center-align"></i></a>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
                </div>
           </div>
      </div>
-     <!-- Fin Redes Sociales -->
+     <!-- Fin Equipo -->
 
      <!-- Contactar -->
      <section id="seccioncontacto" class="fixnavbarbookmark"></section>
